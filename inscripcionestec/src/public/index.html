@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripciones TEC</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav__hero">
+            <div class="container nav__container">
+                <div class="logo">
+                    <h2 class="logo__name">Inscripciones TEC<span class="point">.</span></h2>
+                </div>
+                <div class="links">
+                    <a href="#home" class="link">Inicio</a>
+                    <a href="#centro" class="link">Centros De Interes</a>
+                    <a href="#ins" class="link">Inscripciones</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="container hero__main">
+            <div class="hero__textos">
+                <h1 id="home" class="title">Inscripciones <span class="title--active">TEC.</span></h1>
+                <p class="copy">Te facilitamos la busqueda de un<span class="copy__active"> centro de interes.</span></p>
+                <a href="#ins" class="cta">Inscribete cupos limitados.</a>
+            </div>
+            <img src="img/formularios.png" class="mockup">
+        </section>
+    </header>
+
+    <main>
+        <section class="services">
+            <div class="container">
+                <h2 id="centro" class="subtitle">Centros de interes<span class="point">.</span></h2>
+
+                <article class="container-cards">
+                    <div class="card">
+                        <img src="img/taekwondo.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Artes Marciales</p>
+                            <h3 class="card__title">Taekwondo<span class="point">.</span></h3>
+                            <a href="#" class="card__button">Inscribete</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/natacion.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Actividades Acuaticas</p>
+                            <h3 class="card__title">Natacion<span class="point">.</span></h3>
+                            <a href="#" class="card__button">Inscribete</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/gimnasia.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Actividades deportivas artisticas</p>
+                            <h3 class="card__title">Gimnasia Ritmica<span class="point">.</span></h3>
+                            <a href="#" class="card__button">Inscribete</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/actividadfisica.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Actividades</p>
+                            <h3 class="card__title">Actividad Fisica<span class="point">.</span></h3>
+                            <a href="#" class="card__button">Inscribete</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/gimnasia1.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Actividades Deportivas</p>
+                            <h3 class="card__title">Gimnasia<span class="point">.</span></h3>
+                            <a href="#i" class="card__button">Inscribete</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/orquestasinfonica.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Musica</p>
+                            <h3 class="card__title">Musica Sinfonica<span class="point">.</span></h3>
+                            <a href="#" class="card__button">Inscribete</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="email container container--modifier">
+            <h2 id="ins" class="subtitle subtitle--modifier">Inscripciones<span class="point">.</span></h2>
+            <div class="containers">
+                <form id="contact" action="/pet" method="post">
+
+                    <h4>Por favor completa todos los campos.</h4>
+                    <h4>Recuerda que son cupos limitados.</h4>
+                    <fieldset>
+                        <input name="documento" placeholder="Documento" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="nombre" placeholder="Nombre Completo" type="text" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="email" placeholder="Email" type="text" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="curso" placeholder="Curso" type="text" tabindex="4" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="jornada" placeholder="Jornada" type="text" tabindex="5" required></input>
+                    </fieldset>
+                    <fieldset>
+                        <input name="centro" placeholder="Centro De Interes" type="text" tabindex="6" required></input>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit">Confirmar</button>
+                    </fieldset>
+                </form>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="contact">
+            <div class="item__contact">
+                <i class='bx bx-copyright contact__icon'></i>
+                <h3 class="contact__title">Inscripciones TEC</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bx-mail-send contact__icon'></i>
+                <h3 class="contact__title">Inscripciones@gmail.com</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bxs-edit-location contact__icon'></i>
+                <h3 class="contact__title">Se parte de nuestros centros</h3>
+            </div>
+            <div class="item__contact item__contact--gold">
+                <i class='bx bxs-chat contact__icon contact__icon--modifier'></i>
+                <h3 class="contact__title">Contactanos ahora</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

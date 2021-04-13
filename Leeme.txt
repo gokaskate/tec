@@ -1,0 +1,6 @@
+instala wamp ,luego descarga e instala node, 
+entra a la carpeta del proyecto por cmd le da npm install 
+y luego npm run dev
+luego entra en google a localhost:4000
+		
+		
